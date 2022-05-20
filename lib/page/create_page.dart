@@ -23,7 +23,7 @@ class CreatePage extends ConsumerWidget {
             IconButton(
                 icon: const Icon(Icons.info_outline),
                 onPressed: () =>
-                    launch('https://sorceryadventuresheet.web.app/info.html')),
+                    launch('/info.html')),
           ],
         ),
         body: Column(

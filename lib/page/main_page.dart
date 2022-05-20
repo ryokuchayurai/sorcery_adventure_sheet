@@ -191,7 +191,7 @@ class MainPage extends ConsumerWidget {
                   title: Text('このアプリについて'),
                 ),
                 onTap: () =>
-                    launch('https://sorceryadventuresheet.web.app/info.html'),
+                    launch('/info.html'),
               ),
             ]);
   }
