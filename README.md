@@ -1,3 +1,3 @@
 # sorcery_adventure_sheet
 
-Deployed [here](https://sorcery-adventuresheet.web.app/)
+Deployed [here](https://ryokuchayurai.github.io/sorcery_adventure_sheet)
