@@ -19,5 +19,5 @@ jobs:
           cache: true
       - uses: bluefireteam/flutter-gh-pages@v7
         with:
-          baseHref: sorcery_adventure_sheet
+          baseHref: /sorcery_adventure_sheet/
           webRenderer: canvaskit
