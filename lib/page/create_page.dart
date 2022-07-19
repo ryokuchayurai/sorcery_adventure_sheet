@@ -22,8 +22,7 @@ class CreatePage extends ConsumerWidget {
           actions: [
             IconButton(
                 icon: const Icon(Icons.info_outline),
-                onPressed: () =>
-                    launch('/info.html')),
+                onPressed: () => launch('./info.html')),
           ],
         ),
         body: Column(

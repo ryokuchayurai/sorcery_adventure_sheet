@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:sorcery_adventure_sheet/model/adventure_sheet_model.dart';
@@ -11,6 +12,7 @@ import 'package:sorcery_adventure_sheet/page/main_page.dart';
 import 'package:sorcery_adventure_sheet/page/monster_page.dart';
 
 void main() {
+  setUrlStrategy(PathUrlStrategy());
   runApp(ProviderScope(child: App()));
 }
 

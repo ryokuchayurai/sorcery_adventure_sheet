@@ -190,8 +190,7 @@ class MainPage extends ConsumerWidget {
                   leading: Icon(Icons.help),
                   title: Text('このアプリについて'),
                 ),
-                onTap: () =>
-                    launch('/info.html'),
+                onTap: () => launch('./info.html'),
               ),
             ]);
   }
