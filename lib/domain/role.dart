@@ -1,1 +1,0 @@
-enum Role { warrior, wizard }
